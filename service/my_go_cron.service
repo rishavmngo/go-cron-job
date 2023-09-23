@@ -1,0 +1,11 @@
+[Unit]
+Description=My Go Program
+
+[Service]
+ExecStart=main
+Restart=always
+User=rishavmngo
+Group=rishavmngo
+
+[Install]
+WantedBy=mutli-user.target
